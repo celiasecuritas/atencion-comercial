@@ -1,0 +1,77 @@
+/* * ============ ANIMACIONES ========== */
+
+/* ANIMATED TITLE */
+
+.animated-title {
+    transition: all 0.7s;
+    animation: showTitle 2s;
+}
+
+.exit-title {
+    transition: all 2s;
+    animation: exitTitle 4s;
+}
+
+@keyframes showTitle {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+        /* Desplazar hacia la izquierda 50px */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes exitTitle {
+    0% {opacity: 1;
+        transform: translateX(0);
+     
+    }
+
+    100% {
+           opacity: 0;
+        transform: translateX(-50px);
+        /* Desplazar hacia la izquierda 50px */
+    }
+}
+
+/* ANIMATED LINK */
+
+.animated-link {
+    transition: all 0.7s;
+    animation: showLink 3s;
+}
+
+.exit-link {
+    transition: all 0.7s;
+    animation: exitLink 4s;
+}
+
+@keyframes showLink {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+        /* Desplazar hacia abajo 50px */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes exitLink {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+   
+}

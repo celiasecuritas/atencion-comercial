@@ -1,0 +1,125 @@
+@import "../core/Variables";
+
+.instructions {
+  background-color: $color-background;
+  padding: 30px 0;
+
+  &__ul {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 740px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px 30px;
+      flex-wrap: wrap;
+      padding: 0 20px;
+      margin: 30px auto;
+    }
+    @media screen and (min-width: 1024px) {
+      margin: 60px auto;
+      max-width: 1400px;
+      gap: 70px 50px;
+    }
+  }
+
+  &__li {
+    margin: 31px auto 0px auto;
+    border-radius: 45px 0 45px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+    color: $color-dark-grey;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    @media screen and (min-width: 740px) {
+      margin: 0;
+      width: 370px;
+      padding: 30px 0 40px 0;
+      height: 260px;
+      padding: 0;
+    }
+    @media screen and (min-width: 1024px) {
+      padding: 0;
+    }
+  }
+
+  &__div-icon{
+    object-fit: cover;
+    position: absolute;
+    top: -32px;
+    right: 14px;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  &__img {
+    width: 46px;
+  }
+
+  &__sub-title {
+    color: #444;
+    line-height: 20px;
+    max-width: 250px;
+    margin: 30px auto 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+
+    @media screen and (min-width: 740px) {
+      font-size: 18px;
+      max-width: 210px;
+      margin: 10px auto 0 auto;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 20px;
+      max-width: 250px;
+      line-height: 22px;
+    }
+  }
+
+  &__hr {
+    width: 40px;
+    border: none;
+    height: 2px;
+    background-color: $color-red;
+    margin: 20px auto;
+    @media screen and (min-width: 740px) {
+      width: 30px;
+      margin: 15px auto;
+    }
+  }
+
+  &__paragrahp {
+    line-height: 20px;
+    color: $color-dark-grey;
+    font-weight: 300;
+    margin-bottom: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    @media screen and (min-width: 740px) {
+      max-width: 280px;
+      padding: 0 15px;
+      font-size: 14px;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 15px;
+      max-width: 294px;
+    }
+  }
+}

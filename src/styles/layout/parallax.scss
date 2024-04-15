@@ -1,0 +1,74 @@
+@import "../core/Variables";
+
+/* * ============ HERO ========== */
+
+.parallax {
+  position: relative;
+  padding: 120px 10px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  &__img {
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+
+  &__title {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto 20px auto;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    padding: 0 10px;
+    max-width: 400px;
+    @media screen and (min-width: 740px) {
+      font-size: 40px;
+      max-width: 550px;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 36px;
+    }
+  }
+
+  &__subtitle {
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+    margin: 5px auto;
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 25px;
+
+    @media screen and (min-width: 740px) {
+      max-width: 550px;
+      //    font-size: 14px;
+    }
+  }
+}
+
+.fondo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.288);
+}
+
+.parallax__peak {
+  position: relative;
+  width: 100%;
+  height: 50px; /* Altura del pico */
+  overflow: hidden;
+  z-index: 0;
+}

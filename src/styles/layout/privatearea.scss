@@ -1,0 +1,78 @@
+@import "../core/Variables";
+
+
+
+.area {
+    cursor: pointer;
+    z-index: 10;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 102px;
+    height: 91px;
+    border-bottom-left-radius: 293px;
+    border-left: 11px solid $color-red;
+    border-bottom: 11px solid $color-red;
+    background-color: $color-background;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: $color-dark-grey;
+    &:hover {
+      transition: all 0.5s;
+      color: $color-red;
+      .area__title {
+        transition: all 0.2s;
+        transform: scale(110%);
+      }
+
+      .area__icon {
+
+        transition: all 0.6s;
+        transform: scale(105%) translateY(-3px) ;
+
+      }
+
+    }
+  
+    @media screen and (min-width: 740px) {
+        width: 141px;
+        height: 116px;
+      border-bottom-left-radius: 245px;
+    }
+  
+    &__icon {
+        width: 29px;
+        border-radius: 50%;
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 1px;
+        margin-right: 24px;
+    
+    
+      &:hover {
+        transform: translateY(-5px); /* Mueve el elemento 5px hacia arriba */
+        transition: transform 0.3s;
+      }
+  
+      @media screen and (min-width: 740px) {
+        width: 40px;
+        display: block;
+        /* margin-bottom: 9px; */
+        margin-right: 38px;
+      }
+    }
+  
+    &__title {
+        text-transform: uppercase;
+      font-size: 14px;
+      text-align: center;
+      font-weight: 700;
+      margin: 0px 10px 7px 0;
+      @media screen and (min-width: 740px) {
+        margin: 0 15px 20px 0;
+        font-size: 20px;
+      }
+    }
+  }

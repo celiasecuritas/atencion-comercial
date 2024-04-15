@@ -1,0 +1,71 @@
+@import "../core/Variables";
+
+.footer {
+  background-color: var(--color-brown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+
+  &__nav {
+    @media all and (min-width: 740px) {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  &__ul {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px auto;
+    gap: 5px;
+
+    @media all and (min-width: 740px) {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+
+  &__li {
+    @media all and (min-width: 740px) {
+      text-align: start;
+    }
+  }
+
+  &__link {
+    color: $color-dark-grey;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.527);
+    }
+  }
+
+  &__icon {
+    color: $color-dark-grey;
+    margin-right: 5px;
+  }
+
+  &__logo {
+    margin: 10px 0;
+  }
+
+  &__spot {
+    display: none;
+    @media all and (min-width: 740px) {
+      display: block;
+      color: $color-dark-grey;
+      font-weight: 400;
+    }
+  }
+
+  &__logo {
+    width: 140px;}
+}
