@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.269d4056.css",
-    "main.js": "./static/js/main.9c0d04f6.js",
+    "main.css": "./static/css/main.8824a0cb.css",
+    "main.js": "./static/js/main.08779ad1.js",
     "static/media/zerovision.jpg": "./static/media/zerovision.115a80201f5c780ee57d.jpg",
     "static/media/bodegon-dispositivos.png": "./static/media/bodegon-dispositivos.6916ae92a8321f5f1c75.png",
     "static/media/pantalla1_0.png": "./static/media/pantalla1_0.d090d2fa66857812cfd5.png",
@@ -22,7 +22,6 @@
     "static/media/panel-control.jpg": "./static/media/panel-control.f402c9bc61a738252159.jpg",
     "static/media/app.png": "./static/media/app.267ea5d1975458584217.png",
     "static/media/agente.png": "./static/media/agente.d9ac6c608227f53a1189.png",
-    "static/media/logo.png": "./static/media/logo.91c345eeecb47f23ad0c.png",
     "static/media/persona_detectada-min.jpg": "./static/media/persona_detectada-min.e04a01b797993cf6a600.jpg",
     "static/media/Shock-sensor1.jpg": "./static/media/Shock-sensor1.12db97fe3ab8bbb80283.jpg",
     "static/media/piso_bajo-min.jpg": "./static/media/piso_bajo-min.27844cc8ff92989d3f1b.jpg",
@@ -43,11 +42,11 @@
     "static/media/perimetral.jpeg": "./static/media/perimetral.a837f91243c7ae0fde36.jpeg",
     "static/media/imagen-modulo-3d-fotodetector.png": "./static/media/imagen-modulo-3d-fotodetector.b3520ecfe987d85537e0.png",
     "index.html": "./index.html",
-    "main.269d4056.css.map": "./static/css/main.269d4056.css.map",
-    "main.9c0d04f6.js.map": "./static/js/main.9c0d04f6.js.map"
+    "main.8824a0cb.css.map": "./static/css/main.8824a0cb.css.map",
+    "main.08779ad1.js.map": "./static/js/main.08779ad1.js.map"
   },
   "entrypoints": [
-    "static/css/main.269d4056.css",
-    "static/js/main.9c0d04f6.js"
+    "static/css/main.8824a0cb.css",
+    "static/js/main.08779ad1.js"
   ]
 }
