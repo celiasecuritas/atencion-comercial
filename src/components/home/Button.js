@@ -6,7 +6,7 @@ import iconOperadora from "../../img/button/operadora-white.png";
 import icontelefono from "../../img/button/telefono.png";
 import iconcorreo from "../../img/button/correo.png";
 
-import logo from "../../img/header/logo.png";
+import logo from "../../img/header/securitas-direct.png";
 
 const Button = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -58,8 +58,8 @@ const Button = () => {
                   alt='Icono tefelono'
                   className='modal__icon'
                 />
-                <a className='modal__link' href='tel:900100778'>
-                900 100 778
+                <a className='modal__link' href='tel:+34900903506'>
+                900 903 506
                 </a>
               </li>
               <li className='modal__li'>
@@ -71,9 +71,9 @@ const Button = () => {
                 />
                 <a
                   className='modal__link'
-                  href='mailto:vodafone@securitasdirect.es'
+                  href='mailto:atencioncomercial@securitasdirect.es'
                 >
-                  vodafone@securitasdirect.es
+                  atencioncomercial@securitasdirect.es
                 </a>
               </li>
             </ul>

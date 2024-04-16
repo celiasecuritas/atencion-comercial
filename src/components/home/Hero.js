@@ -1,7 +1,7 @@
 import "../../styles/layout/hero.scss";
 import "../../styles/core/Animated.scss";
 
-import logo from "../../img/header/logo.png";
+import logo from "../../img/header/securitas-direct.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
 
     <section className='hero ' id='home'>
       <h2 className='hero__title  animated-title '>
-        Bienvenido al portal web de Securitas Direct y Vodafone
+        Bienvenido al portal web de Securitas Direct
       </h2>
       <img
         src={logo}

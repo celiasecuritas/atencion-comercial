@@ -1,5 +1,5 @@
 import "../styles/layout/Header.scss";
-import logoHeader from "../img/header/logo.png";
+import logoHeader from "../img/header/securitas-direct.png";
 import React, { useState } from "react";
 
 const Header = () => {
